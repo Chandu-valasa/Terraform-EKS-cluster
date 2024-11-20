@@ -4,5 +4,11 @@
 variable "region" {
   description = "AWS region"
   type        = string
-  default     = "us-east-2"
+  default     = "ap-south-1"
+}
+
+variable "cidr" {
+  type=string
+  default = "10.0.0.0/16"
+  
 }
