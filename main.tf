@@ -76,7 +76,7 @@ module "eks" {
     one = {
       name = "node-group-1"
 
-      instance_types = ["t3.large"]
+      instance_types = ["t2.xlarge"]
       min_size     = 1
       max_size     = 2
       desired_size = 2
@@ -85,7 +85,7 @@ module "eks" {
     two = {
       name = "node-group-2"
 
-      instance_types = ["t3.large"]
+      instance_types = ["t2.xlarge"]
 
       min_size     = 1
       max_size     = 2
